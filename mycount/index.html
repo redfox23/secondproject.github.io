@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Classy Countdown Plugin Demos</title>
+
+<link href="css/jquery.classycountdown.css" rel="stylesheet" type="text/css">
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/bootstrap-grid.css">
+<link rel="stylesheet" href="css/style.css">
+<!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
+</head>
+
+<body>
+<div class="website-border">
+<div class="choose_the_best">
+<div class="container">
+    <span class="title">special offers</span>
+    <h2 class="title_block">choose the best</h2>
+        <div class="row">
+            <div class="choose_block1 col-md-6 col-sm-6">
+
+            </div>
+            <div class="choose_block3 col-md-2 col-sm-2">
+                <img src="img/choose_headphone.png" alt="#" class="choose_headphone">
+            </div>
+            <div class="choose_block3 col-md-4 col-sm-4">
+                <span class="head_klm">headphones klm</span>
+                <span class="choose_plus">+</span>
+                <span class="head_klm">leather case</span>
+                <span class="choose_plus">+</span>
+                <span class="head_klm">free delivery</span>
+
+                <span class="choose_best_price">best price:
+                <span class="choose_dollar_price">$195.00</span></span>
+                <div id="countdown1" style="background-color:#fff"></div>
+                <p class="choose_txt">Praesent nec finibus massa. Phasellus id auctor lacus, at iaculis lorem. Donec quis arcu elit. In vehicula purus sem, eu mattis est lacinia sit amet.</p>
+                <form action="https://www.drive2.ru/" class="choose_form">
+                <button class="choose_learn_more">learn more</button>
+            </form>
+            <form action="https://www.google.com/"  class="choose_form">
+                <button class="choose_add_to_cart">add to cart</button>
+            </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- <div class="container" style="margin-top:150px;">
+<div id="countdown1" style="background-color:#fff"></div>
+
+</div> -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/jquery.knob.js"></script>
+<script src="js/jquery.throttle.js"></script>
+
+<script src="js/jquery.classycountdown.js"></script>
+<script>
+                                        $(document).ready(function() {
+
+                                            $('#countdown1').ClassyCountdown({
+                                                theme: "white",
+                                                style: {
+                                                    element: "",
+                                                    textResponsive: .5,                                                   
+                                                    days: {
+                                                        gauge: {
+                                                            thickness: .03,
+                                                            bgColor: "#f0f0f0",
+                                                            fgColor: "#b8cd06"
+                                                        },
+                                                        textCSS: 'font-family:\'Arial\'; font-size:25px; font-weight:300; color:#343434;'
+                                                    },
+                                                    hours: {
+                                                        gauge: {
+                                                            thickness: .03,
+                                                            bgColor: "#f0f0f0",
+                                                            fgColor: "#b8cd06"
+                                                        },
+                                                        textCSS: 'font-family:\'Arial\'; font-size:25px; font-weight:300; color:#343434;'
+                                                    },
+                                                    minutes: {
+                                                        gauge: {
+                                                            thickness: .03,
+                                                            bgColor: "#f0f0f0",
+                                                            fgColor: "#b8cd06"
+                                                        },
+                                                        textCSS: 'font-family:\'Arial\'; font-size:25px; font-weight:300; color:#343434;'
+                                                    },
+                                                    seconds: {
+                                                        gauge: {
+                                                            thickness: .03,
+                                                            bgColor: "#f0f0f0",
+                                                            fgColor: "#b8cd06"
+                                                        },
+                                                        textCSS: 'font-family:\'Arial\'; font-size:25px; font-weight:300; color:#343434;'
+                                                    }
+
+                                                },
+                                                end: $.now() + 1798628
+                                            });
+ 
+                                            
+                                        });
+                                    </script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

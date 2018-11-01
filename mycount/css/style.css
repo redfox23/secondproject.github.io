@@ -1,0 +1,83 @@
+.website-border{
+	margin-bottom: 200px;
+	background-color: #f7f7f7;
+	padding: 0 50px;
+}
+.choose_the_best{
+	background-color: #ffffff;
+}
+.title{
+	margin-top: 140px;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+}
+.title_block{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.title_block::after{
+	content:url(../img/title-bottom-separetor.png);
+	display: block;
+	margin-top: -20px;
+	margin-bottom: 80px;
+}
+.choose_headphone{
+	margin-left: -177px;
+	margin-top: 50px;
+}
+.choose_block1{
+	background-color: #cfcfcf;
+	border-radius: 10px;
+	height: 500px;
+}
+.head_klm{
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.choose_plus{
+	font-size: 25px;
+	font-weight: bold;
+	color:#b8cd06;
+}
+.choose_best_price{
+	display: block;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #343434;
+	margin: 25px 0;
+}
+.choose_dollar_price{
+	color:#b8cd06;
+}
+.choose_txt{
+	color:#888888;
+	font-size: 14px;
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+.choose_form{
+	display: inline;
+}
+.choose_learn_more{
+	border: none;
+	border-radius: 30px;
+	background-color: #b8cd06;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 11px;
+	padding: 15px 30px;
+}
+.choose_add_to_cart{
+	border: none;
+	border-radius: 30px;
+	background-color: #343434;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 11px;
+	padding: 15px 30px;
+}
